@@ -168,10 +168,10 @@ int main(int argc, char** argv) {
     // draw the bounding boxes on the image
     draw_bounding_box(image, boxes);
     
-    cv::namedWindow("Image", cv::WINDOW_NORMAL);
-    cv::resizeWindow("Image", 800, 600);
+    //cv::namedWindow("Image", cv::WINDOW_NORMAL);
+    //cv::resizeWindow("Image", 800, 600);
     //show image
-    cv::imshow("Image", image);
+    //cv::imshow("Image", image);
 
     // image name
     std::string image_name = argv[1];
